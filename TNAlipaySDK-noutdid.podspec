@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TNAlipaySDK-noutdid"
   spec.version      = "15.8.35"
-  spec.summary      = "A short description of TNAlipaySDK-noutdid."
+  spec.summary      = "支付宝官方 SDK 的 iOS 封装，无需 UTDid 支持。"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+TNAlipaySDK-noutdid 是对支付宝官方 iOS SDK 的封装，去除了对 UTDid 的依赖，适用于需要集成支付宝支付但不希望引入 UTDid 的场景。支持 iOS 9.0 及以上系统，包含必要的资源和依赖配置，方便快速集成。
+DESC
 
   spec.homepage     = "https://github.com/HelloXZX/TNAlipaySDK-noutdid.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -80,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/TNAlipaySDK-noutdid.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/HelloXZX/TNAlipaySDK-noutdid.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
